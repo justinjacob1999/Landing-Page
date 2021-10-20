@@ -2,11 +2,13 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
+    align-items:center;
+    align-content: space-between;
    
 }
 .logo {
     display: flex;
-    align-items: center; 
+    
     color: #f9faf8;
     font-size: 24px;
     font-weight: 800;
@@ -15,7 +17,7 @@
 }
 .header-links {
     display: flex;
-    justify-content: space-evenly;
+    
     padding: 8px;
     font-size: 18px;
     
@@ -96,4 +98,92 @@ button {
     color: #f9faf8;
     font-weight: bold;
     font-size: 20px;
+}
+.second-container {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.contentbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.title2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 16px;
+    margin: 16px;
+    align-self: center;
+}
+.boxesandtext {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.roundbox {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow:column wrap;
+    margin: 24px;
+}
+.subtext {
+    align-self: center;
+    text-align: center;
+    width: 200px;
+    padding: 8px;
+
+}
+.third-container {
+    
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
+   
+    align-items: center;
+
+}
+.third-container-textbox {
+    height: 500px;
+    width:1000px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.third-container-subtext {
+    
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    
+    padding: 8px;
+    
+    
+
+}
+.quote-box {
+    align-self: flex-end;
+    margin: 0;
+    
+}
+.quote-attribution {
+    color: #000;
+    font-size: 24px;
+    font-weight: 800;
 }
